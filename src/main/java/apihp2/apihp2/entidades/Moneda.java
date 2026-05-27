@@ -1,22 +1,4 @@
-package apidefifa.apidefifa.entidades;
-
-/*
- * ENTIDAD: Moneda
- * --------------------------------------------------------------
- * Representa la tabla "moneda" en la base de datos.
- * Una moneda puede estar asociada a muchos países y puede tener
- * muchos registros de cambio a lo largo del tiempo.
- *
- * Campos de la tabla:
- *   - Id       → clave primaria autonumérica
- *   - Moneda   → nombre completo (ej: "Peso colombiano")
- *   - Sigla    → código ISO de 3 letras (ej: "COP")
- *   - Simbolo  → símbolo gráfico (ej: "$")
- *   - Emisor   → entidad que la emite (ej: "Banco de la República")
- *   - Imagen   → imagen en binario (BLOB)
- * --------------------------------------------------------------
- */
-
+package apihp2.apihp2.entidades;
 import java.util.ArrayList;
 import java.util.List;
 

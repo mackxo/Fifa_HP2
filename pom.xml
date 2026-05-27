@@ -9,10 +9,10 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>apidefifa</groupId>
-	<artifactId>apidefifa</artifactId>
+	<groupId>apihp2</groupId>
+	<artifactId>api-monedas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>apidefifa</name>
+	<name>api-monedas</name>
 	<description>API REST - Trabajo Individual</description>
 
 	<properties>

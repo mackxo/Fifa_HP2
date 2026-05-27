@@ -1,19 +1,4 @@
-package apidefifa.apidefifa.entidades;
-
-/*
- * ENTIDAD: CambioMoneda
- * --------------------------------------------------------------
- * Representa la tabla "cambiomoneda" en la base de datos.
- * Registra el valor de una moneda en un momento específico,
- * permitiendo construir un historial de tasas de cambio.
- *
- * Campos de la tabla:
- *   - Id       → clave primaria autonumérica
- *   - IdMoneda → clave foránea hacia la tabla moneda
- *   - Fecha    → fecha y hora del registro (DATETIME en BD → LocalDateTime en Java)
- *   - Cambio   → valor o tasa de cambio registrada (FLOAT)
- * --------------------------------------------------------------
- */
+package apihp2.apihp2.entidades;
 
 import java.time.LocalDateTime;
 

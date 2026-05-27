@@ -1,24 +1,11 @@
-package apidefifa.apidefifa.servicios;
-
-/*
- * SERVICIO: MonedaServicio
- * --------------------------------------------------------------
- * Implementa IMonedaServicio con la lógica de negocio real.
- *
- * Spring crea automáticamente una instancia de esta clase
- * (@Service) e inyecta el repositorio en el constructor.
- * El controlador no crea este objeto manualmente; Spring se lo
- * entrega (Inversión de Control / Inyección de Dependencias).
- * --------------------------------------------------------------
- */
-
+package apihp2.apihp2.servicios;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import apidefifa.apidefifa.entidades.Moneda;
-import apidefifa.apidefifa.interfaces.IMonedaServicio;
-import apidefifa.apidefifa.repositorios.MonedaRepositorio;
+import apihp2.apihp2.entidades.Moneda;
+import apihp2.apihp2.interfaces.IMonedaServicio;
+import apihp2.apihp2.repositorios.MonedaRepositorio;
 
 @Service
 public class MonedaServicio implements IMonedaServicio {

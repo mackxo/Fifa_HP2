@@ -1,20 +1,11 @@
-package apidefifa.apidefifa.servicios;
-
-/*
- * SERVICIO: PaisServicio
- * --------------------------------------------------------------
- * Implementa IPaisServicio con la lógica de negocio para Pais.
- * Spring inyecta el repositorio automáticamente en el constructor.
- * --------------------------------------------------------------
- */
-
+package apihp2.apihp2.servicios;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import apidefifa.apidefifa.entidades.Pais;
-import apidefifa.apidefifa.interfaces.IPaisServicio;
-import apidefifa.apidefifa.repositorios.PaisRepositorio;
+import apihp2.apihp2.entidades.Pais;
+import apihp2.apihp2.interfaces.IPaisServicio;
+import apihp2.apihp2.repositorios.PaisRepositorio;
 
 @Service
 public class PaisServicio implements IPaisServicio {

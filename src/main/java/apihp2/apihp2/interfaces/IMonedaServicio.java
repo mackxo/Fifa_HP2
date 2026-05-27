@@ -1,8 +1,8 @@
-package apidefifa.apidefifa.interfaces;
+package apihp2.apihp2.interfaces;
 
 import java.util.List;
 
-import apidefifa.apidefifa.entidades.Moneda;
+import apihp2.apihp2.entidades.Moneda;
 
 public interface IMonedaServicio {
 

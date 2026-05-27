@@ -1,27 +1,12 @@
-package apidefifa.apidefifa.controladores;
-
-/*
- * CONTROLADOR: PaisControlador
- * --------------------------------------------------------------
- * Expone los endpoints REST para operar con la entidad Pais.
- * Ruta base: /api/paises
- *
- * Endpoints disponibles:
- *   GET    /api/paises/listar          → lista todos los países
- *   GET    /api/paises/buscar/{id}     → busca un país por su id
- *   POST   /api/paises/agregar         → crea un nuevo país
- *   PUT    /api/paises/actualizar/{id} → actualiza un país existente
- *   DELETE /api/paises/eliminar/{id}   → elimina un país por su id
- * --------------------------------------------------------------
- */
+package apihp2.apihp2.controladores;
 
 import java.util.List;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import apidefifa.apidefifa.entidades.Pais;
-import apidefifa.apidefifa.interfaces.IPaisServicio;
+import apihp2.apihp2.entidades.Pais;
+import apihp2.apihp2.interfaces.IPaisServicio;
 
 @RestController
 @RequestMapping("/api/paises")

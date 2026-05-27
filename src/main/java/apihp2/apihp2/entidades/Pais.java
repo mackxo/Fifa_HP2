@@ -1,22 +1,4 @@
-package apidefifa.apidefifa.entidades;
-
-/*
- * ENTIDAD: Pais
- * --------------------------------------------------------------
- * Representa la tabla "pais" en la base de datos.
- * Cada país usa una moneda oficial (clave foránea → Moneda).
- *
- * Campos de la tabla:
- *   - Id           → clave primaria autonumérica
- *   - Pais         → nombre del país (ej: "Colombia")
- *   - CodigoAlfa2  → código ISO de 2 letras (ej: "CO")
- *   - CodigoAlfa3  → código ISO de 3 letras (ej: "COL")
- *   - IdMoneda     → clave foránea hacia la tabla moneda
- *   - Mapa         → imagen del mapa en binario (BLOB)
- *   - Bandera      → imagen de la bandera en binario (BLOB)
- * --------------------------------------------------------------
- */
-
+package apihp2.apihp2.entidades;
 import org.hibernate.annotations.GenericGenerator;
 
 import jakarta.persistence.*;

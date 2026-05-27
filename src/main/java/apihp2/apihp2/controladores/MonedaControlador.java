@@ -1,30 +1,12 @@
-package apidefifa.apidefifa.controladores;
-
-/*
- * CONTROLADOR: MonedaControlador
- * --------------------------------------------------------------
- * Expone los endpoints REST para operar con la entidad Moneda.
- * Ruta base: /api/monedas
- *
- * Endpoints disponibles:
- *   GET    /api/monedas/listar          → lista todas las monedas
- *   GET    /api/monedas/buscar/{id}     → busca una moneda por su id
- *   POST   /api/monedas/agregar         → crea una nueva moneda
- *   PUT    /api/monedas/actualizar/{id} → actualiza una moneda existente
- *   DELETE /api/monedas/eliminar/{id}   → elimina una moneda por su id
- *
- * El controlador solo habla con la interfaz IMonedaServicio,
- * nunca directamente con el repositorio (separación de capas).
- * --------------------------------------------------------------
- */
+package apihp2.apihp2.controladores;
 
 import java.util.List;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import apidefifa.apidefifa.entidades.Moneda;
-import apidefifa.apidefifa.interfaces.IMonedaServicio;
+import apihp2.apihp2.entidades.Moneda;
+import apihp2.apihp2.interfaces.IMonedaServicio;
 
 @RestController
 @RequestMapping("/api/monedas")
